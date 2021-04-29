@@ -12,7 +12,10 @@ int main() {
     std::cout << "Hallo ich bin Felix\n";
     std::cout << "Hallo ich bin Felix\n";
     std::cout << "Hallo ich bin Felix\n";       
-
+    
+    for (int i : ia) {
+        std::cout << i << ", ";
+    }
 
     return EXIT_SUCCESS;
 }
